@@ -1,0 +1,68 @@
+{
+    "name": "@ygpedroso/react-autohide",
+    "version": "1.0.0",
+    "description": "React component that autohides itself after the specified amount of milliseconds",
+    "main": "lib/index.js",
+    "module": "lib/index.es.js",
+    "jsnext:main": "lib/index.es.js",
+    "scripts": {
+        "clean": "rimraf lib",
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "lint": "eslint src/",
+        "lint:report": "eslint -f json -o eslint/report.json src/",
+        "build": "rollup -c",
+        "build:watch": "rollup -c -w",
+        "publish": "--access public",
+        "prepublish": "npm run clean && npm run test && npm run lint && npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ygpedroso/react-autohide"
+    },
+    "keywords": [
+        "react"
+    ],
+    "author": "",
+    "license": "MIT",
+    "peerDependencies": {
+        "prop-types": "^15.5.4",
+        "react": "^15.0.0 || ^16.0.0",
+        "react-dom": "^15.0.0 || ^16.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.1.2",
+        "@babel/plugin-proposal-class-properties": "^7.1.0",
+        "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+        "@babel/preset-env": "^7.1.0",
+        "@babel/preset-react": "^7.0.0",
+        "babel-core": "^7.0.0-bridge.0",
+        "babel-eslint": "^10.0.1",
+        "babel-jest": "^23.6.0",
+        "enzyme": "^3.7.0",
+        "enzyme-adapter-react-16": "^1.6.0",
+        "eslint": "^5.6.1",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-config-prettier": "^3.1.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-jsx-a11y": "^6.1.2",
+        "eslint-plugin-prettier": "^3.0.0",
+        "eslint-plugin-react": "^7.11.1",
+        "husky": "^1.1.1",
+        "jest": "^23.6.0",
+        "jest-environment-jsdom": "^23.4.0",
+        "prettier": "^1.14.3",
+        "prop-types": "^15.6.2",
+        "react": "^16.5.2",
+        "react-dom": "^16.5.2",
+        "regenerator-runtime": "^0.12.1",
+        "rimraf": "^2.6.2",
+        "rollup": "^0.66.5",
+        "rollup-plugin-babel": "^4.0.3",
+        "rollup-plugin-commonjs": "^9.1.8",
+        "rollup-plugin-eslint": "^5.0.0",
+        "rollup-plugin-node-resolve": "^3.4.0",
+        "rollup-plugin-peer-deps-external": "^2.2.0",
+        "rollup-plugin-postcss": "^1.6.2"
+    }
+}

@@ -1,0 +1,7 @@
+.autohide {
+
+}
+
+.autohide.hidden {
+    display: none;
+}

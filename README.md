@@ -21,7 +21,7 @@ yarn add @ygpedroso/react-autohide
 ```jsx
 import React, { Component } from 'react'
 
-import CookiesConsent from '@cuban-engineer/react-cookies-consent'
+import AutoHide from '@ygpedroso/react-autohide'
 
 class Example extends Component {
   render () {
@@ -37,7 +37,7 @@ class Example extends Component {
 ## Available props
 
 * `ms` Amount of milliseconds to wait before hiding the component: (Type: `Number`, Default value: `1000`)
-* `children` Content to be displayed and autohide: (Type `Element`)
+* `children` Required, content to be displayed and autohide: (Type `Node`)
 
 ## Styling
  

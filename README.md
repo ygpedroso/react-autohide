@@ -41,7 +41,7 @@ class Example extends Component {
 
 ## Styling
  
- By default the children component will be displayed inside a `div` element, with `.autohide` class and none styling what so ever:
+ By default the children component will be displayed inside a `span` element, with `.autohide` class and none styling what so ever:
  
  But the styles can be modified by overriding this `css` class:
  1. `.autohide`: Entire Component container.

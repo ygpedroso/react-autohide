@@ -25,13 +25,13 @@ export default class AutoHide extends Component {
         const { isHidden } = this.state;
         const hidden = isHidden ? ' hidden' : '';
         const { children } = this.props;
-        return <div className={`autohide${hidden}`}>{children}</div>;
+        return <span className={`autohide${hidden}`}>{children}</span>;
     }
 }
 
 AutoHide.propTypes = {
     ms: PropTypes.number,
-    children: PropTypes.element.isRequired,
+    children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]).isRequired,
 };
 
 AutoHide.defaultProps = {

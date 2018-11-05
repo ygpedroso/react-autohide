@@ -26,9 +26,9 @@ import AutoHide from '@ygpedroso/react-autohide'
 class Example extends Component {
   render () {
     return (
-      <Authide>
+      <AutoHide>
         My Content
-      </Autohide>
+      </AutoHide>
     )
   }
 }

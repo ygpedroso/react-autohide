@@ -1,6 +1,7 @@
 # @ygpedroso/react-autohide
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)   [![code linting: eslint](https://img.shields.io/badge/lint-eslint-blue.svg)](https://github.com/eslint/eslint)  [![code quality: jest](https://img.shields.io/badge/test-jest-ff69b4.svg)](https://facebook.github.io/jest/) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![Build Status](https://travis-ci.org/ygpedroso/react-autohide.svg?branch=master)](https://travis-ci.org/ygpedroso/react-autohide)
 
 > React component that autohides itself after the specified amount of milliseconds
 

@@ -1,6 +1,6 @@
 {
     "name": "@ygpedroso/react-autohide",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "React component that autohides itself after the specified amount of milliseconds",
     "main": "lib/index.js",
     "module": "lib/index.es.js",

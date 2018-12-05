@@ -1,5 +1,9 @@
 language: node_js
 cache: npm
+branches:
+    only:
+        - master
+        - develop
 script:
     - npm run lint
     - npm run test:coverage
